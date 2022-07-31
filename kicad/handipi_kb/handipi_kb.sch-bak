@@ -420,46 +420,41 @@ F 3 "~" H 2050 1300 50  0001 C CNN
 	1    2050 1100
 	1    0    0    -1  
 $EndComp
-Connection ~ 5550 6600
-Wire Wire Line
-	5550 6450 5550 6600
-Wire Wire Line
-	5200 6600 5550 6600
-Text GLabel 6150 6600 2    50   Input ~ 0
+Text GLabel 6400 6500 2    50   Input ~ 0
 USB_D-
-Text GLabel 6150 6500 2    50   Input ~ 0
+Text GLabel 6400 6600 2    50   Input ~ 0
 USB_D+
 $Comp
 L Device:R R4
 U 1 1 62A08084
-P 6000 6600
-F 0 "R4" V 6100 6500 50  0000 C CNN
-F 1 "75R" V 6100 6700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5930 6600 50  0001 C CNN
-F 3 "~" H 6000 6600 50  0001 C CNN
-	1    6000 6600
+P 6250 6600
+F 0 "R4" V 6350 6500 50  0000 C CNN
+F 1 "75R" V 6350 6700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6180 6600 50  0001 C CNN
+F 3 "~" H 6250 6600 50  0001 C CNN
+	1    6250 6600
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 629F6944
-P 6000 6500
-F 0 "R3" V 5900 6400 50  0000 C CNN
-F 1 "75R" V 5900 6600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5930 6500 50  0001 C CNN
-F 3 "~" H 6000 6500 50  0001 C CNN
-	1    6000 6500
+P 6250 6500
+F 0 "R3" V 6150 6400 50  0000 C CNN
+F 1 "75R" V 6150 6600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6180 6500 50  0001 C CNN
+F 3 "~" H 6250 6500 50  0001 C CNN
+	1    6250 6500
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 629F5782
-P 5350 6700
-F 0 "#PWR08" H 5350 6450 50  0001 C CNN
-F 1 "GND" H 5355 6527 50  0000 C CNN
-F 2 "" H 5350 6700 50  0001 C CNN
-F 3 "" H 5350 6700 50  0001 C CNN
-	1    5350 6700
+P 5350 7000
+F 0 "#PWR08" H 5350 6750 50  0001 C CNN
+F 1 "GND" H 5355 6827 50  0000 C CNN
+F 2 "" H 5350 7000 50  0001 C CNN
+F 3 "" H 5350 7000 50  0001 C CNN
+	1    5350 7000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -504,17 +499,6 @@ Wire Wire Line
 Wire Wire Line
 	5450 6050 5550 6050
 Connection ~ 5550 6050
-$Comp
-L MCU_Microchip_ATmega:ATmega328-PU U1
-U 1 1 62929698
-P 1950 5700
-F 0 "U1" H 1306 5746 50  0000 R CNN
-F 1 "ATmega328-PU" H 1306 5655 50  0000 R CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 1950 5700 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 1950 5700 50  0001 C CNN
-	1    1950 5700
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1350 4500
 $Comp
 L Device:Crystal Y1
@@ -627,11 +611,6 @@ F 3 "" H 2150 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 4200 2050 4200
-Wire Wire Line
-	2150 4200 2050 4200
-Connection ~ 2050 4200
-Wire Wire Line
 	8200 5700 7750 5700
 Wire Wire Line
 	7750 5700 7300 5700
@@ -673,32 +652,8 @@ Connection ~ 3300 4700
 Wire Wire Line
 	3300 5000 3150 5000
 Wire Wire Line
-	3150 5000 3150 5200
-Wire Wire Line
 	3150 5200 2550 5200
 Connection ~ 3300 5000
-$Comp
-L horizon:SW_Push SW38
-U 1 1 629397F4
-P 3750 6700
-F 0 "SW38" H 3750 6985 50  0000 C CNN
-F 1 "BOOT" H 3750 6894 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3750 6900 50  0001 C CNN
-F 3 "~" H 3750 6900 50  0001 C CNN
-	1    3750 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L horizon:SW_Push SW37
-U 1 1 6293A963
-P 3750 6000
-F 0 "SW37" H 3750 6285 50  0000 C CNN
-F 1 "RESET" H 3750 6194 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3750 6200 50  0001 C CNN
-F 3 "~" H 3750 6200 50  0001 C CNN
-	1    3750 6000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R1
 U 1 1 6293B6A7
@@ -722,8 +677,6 @@ F 3 "" H 3350 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 6000 3350 6000
-Wire Wire Line
 	3350 6000 2550 6000
 Connection ~ 3350 6000
 Wire Wire Line
@@ -739,9 +692,6 @@ F 3 "" H 3950 6700 50  0001 C CNN
 	1    3950 6700
 	1    0    0    -1  
 $EndComp
-Connection ~ 3950 6700
-Wire Wire Line
-	3550 6700 2550 6700
 Text GLabel 2550 6500 2    50   Input ~ 0
 USB_D-
 Text GLabel 2550 6400 2    50   Input ~ 0
@@ -780,8 +730,6 @@ Wire Wire Line
 Connection ~ 9850 3300
 Wire Wire Line
 	7250 4250 8100 4250
-Wire Wire Line
-	8150 4250 9000 4250
 Wire Wire Line
 	7250 3300 5700 3300
 Connection ~ 7250 3300
@@ -988,9 +936,7 @@ Connection ~ 10250 2050
 Wire Wire Line
 	10250 2050 10250 3000
 Wire Wire Line
-	5550 6600 5850 6600
-Wire Wire Line
-	5200 6500 5850 6500
+	5200 6500 5550 6500
 Wire Wire Line
 	5200 6700 5350 6700
 Text GLabel 1700 1100 1    50   Input ~ 0
@@ -1452,13 +1398,186 @@ $EndComp
 Text GLabel 10450 5200 2    50   Input ~ 0
 ROW4
 Text GLabel 9750 5150 0    50   Input ~ 0
-COL0
+COL4
 Text GLabel 9750 5250 0    50   Input ~ 0
-COL1
+COL3
 Text GLabel 9750 5350 0    50   Input ~ 0
 COL2
 Text GLabel 9750 5450 0    50   Input ~ 0
-COL3
+COL6
 Text GLabel 10450 5400 2    50   Input ~ 0
+COL5
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 629B388B
+P 3650 5800
+F 0 "J2" H 3542 5475 50  0000 C CNN
+F 1 "RESET" H 3542 5566 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3650 5800 50  0001 C CNN
+F 3 "~" H 3650 5800 50  0001 C CNN
+	1    3650 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 629C71EB
+P 3650 6500
+F 0 "J3" H 3542 6175 50  0000 C CNN
+F 1 "BOOT" H 3542 6266 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3650 6500 50  0001 C CNN
+F 3 "~" H 3650 6500 50  0001 C CNN
+	1    3650 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 6700 3650 6700
+Wire Wire Line
+	3750 6700 3950 6700
+Connection ~ 3950 6700
+Wire Wire Line
+	3750 6000 3950 6000
+Wire Wire Line
+	3350 6000 3650 6000
+Wire Wire Line
+	8100 4250 9000 4250
+Connection ~ 8100 4250
+Connection ~ 2050 4200
+Wire Wire Line
+	2150 4200 2050 4200
+Wire Wire Line
+	1950 4200 2050 4200
+Wire Wire Line
+	3150 5000 3150 5200
+$Comp
+L MCU_Microchip_ATmega:ATmega328-PU U1
+U 1 1 62929698
+P 1950 5700
+F 0 "U1" H 1306 5746 50  0000 R CNN
+F 1 "ATmega328-PU" H 1306 5655 50  0000 R CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 1950 5700 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 1950 5700 50  0001 C CNN
+	1    1950 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 6600 2    50   Input ~ 0
+ROW0
+Text GLabel 2550 6800 2    50   Input ~ 0
+ROW1
+Text GLabel 2550 6900 2    50   Input ~ 0
+ROW2
+Text GLabel 2550 4500 2    50   Input ~ 0
+ROW3
+Text GLabel 2550 4600 2    50   Input ~ 0
+ROW4
+Text GLabel 2550 6200 2    50   Input ~ 0
+COL0
+Text GLabel 2550 6300 2    50   Input ~ 0
+COL1
+Text GLabel 2550 5900 2    50   Input ~ 0
+COL9
+Text GLabel 2550 5800 2    50   Input ~ 0
+COL8
+Text GLabel 2550 5700 2    50   Input ~ 0
+COL7
+Text GLabel 2550 5600 2    50   Input ~ 0
+COL6
+Text GLabel 2550 5500 2    50   Input ~ 0
+COL5
+Text GLabel 2550 5400 2    50   Input ~ 0
 COL4
+Text GLabel 2550 4800 2    50   Input ~ 0
+COL3
+Text GLabel 2550 4700 2    50   Input ~ 0
+COL2
+$Comp
+L horizon:Hole_Pad H1
+U 1 1 62B179FC
+P 4950 4900
+F 0 "H1" H 5050 4949 50  0000 L CNN
+F 1 "Hole_Pad" H 5050 4858 50  0000 L CNN
+F 2 "Horizon:Mount_M2" H 4950 4900 50  0001 C CNN
+F 3 "" H 4950 4900 50  0001 C CNN
+	1    4950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L horizon:Hole_Pad H2
+U 1 1 62B17E5A
+P 5650 4900
+F 0 "H2" H 5750 4949 50  0000 L CNN
+F 1 "Hole_Pad" H 5750 4858 50  0000 L CNN
+F 2 "Horizon:Mount_M2" H 5650 4900 50  0001 C CNN
+F 3 "" H 5650 4900 50  0001 C CNN
+	1    5650 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L horizon:Hole_Pad H3
+U 1 1 62B17F75
+P 4950 5350
+F 0 "H3" H 5050 5399 50  0000 L CNN
+F 1 "Hole_Pad" H 5050 5308 50  0000 L CNN
+F 2 "Horizon:Mount_M2" H 4950 5350 50  0001 C CNN
+F 3 "" H 4950 5350 50  0001 C CNN
+	1    4950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L horizon:Hole_Pad H4
+U 1 1 62B18299
+P 5650 5350
+F 0 "H4" H 5750 5399 50  0000 L CNN
+F 1 "Hole_Pad" H 5750 5308 50  0000 L CNN
+F 2 "Horizon:Mount_M2" H 5650 5350 50  0001 C CNN
+F 3 "" H 5650 5350 50  0001 C CNN
+	1    5650 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 6600 5650 6600
+Wire Wire Line
+	5550 6450 5550 6500
+$Comp
+L Device:D_Zener D37
+U 1 1 62E64C23
+P 5650 6850
+F 0 "D37" V 5604 6930 50  0000 L CNN
+F 1 "D_Zener" V 5695 6930 50  0000 L CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5650 6850 50  0001 C CNN
+F 3 "~" H 5650 6850 50  0001 C CNN
+	1    5650 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D38
+U 1 1 62E661C5
+P 5850 6850
+F 0 "D38" V 5804 6930 50  0000 L CNN
+F 1 "D_Zener" V 5895 6930 50  0000 L CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5850 6850 50  0001 C CNN
+F 3 "~" H 5850 6850 50  0001 C CNN
+	1    5850 6850
+	0    1    1    0   
+$EndComp
+Connection ~ 5550 6500
+Wire Wire Line
+	5550 6500 5850 6500
+Wire Wire Line
+	5850 6700 5850 6500
+Connection ~ 5850 6500
+Wire Wire Line
+	5850 6500 6100 6500
+Wire Wire Line
+	5650 6700 5650 6600
+Wire Wire Line
+	5650 6600 6100 6600
+Connection ~ 5650 6600
+Wire Wire Line
+	5850 7000 5650 7000
+Wire Wire Line
+	5650 7000 5350 7000
+Connection ~ 5650 7000
+Wire Wire Line
+	5350 7000 5350 6700
+Connection ~ 5350 7000
 $EndSCHEMATC
