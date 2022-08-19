@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "handipi_kb-rescue")(type "Legacy")(uri "${KIPRJMOD}/handipi_kb-rescue.lib")(options "")(descr ""))
+)
