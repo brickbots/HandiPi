@@ -129,7 +129,8 @@ it all mounted, along with the screen, here:
 The keyboard can be tricky to plug in once it's mounted so you might want to take care of that before
 screwing it down.
 
-Once everythign is mounted, double check your connections and you can move on to the bottom/bezels. 
+Once everything is mounted, double check that you have the screen plugged in and the keyboard connected
+and you can move on to the bottom/bezels. 
 
 ![Double check wiring](https://raw.githubusercontent.com/brickbots/HandiPi/main/images/build/IMG_8181.jpeg)
 
@@ -159,4 +160,6 @@ top screws for the lower ones to clear the typing path.
 
 ![You're done!](https://raw.githubusercontent.com/brickbots/HandiPi/main/images/build/IMG_4385.jpeg)
 
-That's pretty much it!  Install the OS of your choice and happy handheld hacking!
+That's pretty much it!  Install the OS of your choice and happy handheld hacking!  Email if you have 
+any questions or just want to share your work.
+
