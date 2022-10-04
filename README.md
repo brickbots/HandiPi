@@ -19,7 +19,7 @@ up external monitors and other USB peripherals if you need more screen or typing
 
 The keyboard runs QMK and interfaces to the Pi via USB, so it's fully configurable.  I really like the
 [Miryoku](https://github.com/manna-harbour/miryoku) layout and use it on all my keyboards...so that's
-what the physical button layout is based around.  The switches are Diptronic DTS63K tactiles with 1nm 
+what the physical button layout is based around.  The switches are Diptronic DTS63K tactiles with 1Nm 
 of actuation force.  They look the same as the generic ones, but it's worth the few extra dollars as 
 they feel so much better to type on.  It's still a thumb-typing experience, but the limited number of
 keys and the well thought out layering system of Miryoku makes it a suprisingly useful keyboard!
