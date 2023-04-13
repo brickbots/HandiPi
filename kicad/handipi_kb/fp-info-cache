@@ -1,4 +1,4 @@
-20412443968946053
+20417440915686661
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53123,6 +53123,13 @@ mounting hole 2.2mm m2
 9
 1
 Horizon
+Mount_M2.5
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+9
+1
+Horizon
 Pro-Micro
 SparkFun Arduino Pro Micro ATmega32U4
 Arduino, Pro Micro
@@ -77084,6 +77091,13 @@ Adafruit_2.8_tft_lcd
 40
 40
 RSU
+Adafruit_BNO055_IMU
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+RSU
 SPDT_miniswitch
 
 
@@ -77097,6 +77111,13 @@ tact sw push 6mm
 0
 5
 2
+RSU
+Waveshare1.5inOled
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+7
+7
 RSU
 switch_5way
 

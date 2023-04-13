@@ -62,8 +62,8 @@
       35,
       36
     ],
-    "visible_layers": "0009000_00000000",
-    "zone_display_mode": 0
+    "visible_layers": "ffdbffd_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "handipi_kb.kicad_prl",
